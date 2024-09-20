@@ -1,0 +1,114 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero h1{
+    border: 5px solid #1D3557;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #1D3557;
+    padding: 5px 10px;
+    color: white;
+}
+.hero h2{
+    border: 5px solid #457B9D;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #457B9D;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 10px;
+   
+}
+
+.hero img {
+    width: 100px;
+}
+.hero{
+    background-image: url(/images/torshov.jpg);
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    background-size: COVER;
+    padding-top: 150px;
+    height: 400PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h3{
+    color: #1D3557;
+    font-size: 1.9rem;
+}
+.acivities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.acivities img{
+    width: 150px;
+    border-radius: 50%;
+}
+.activies div{
+    text-align:  center;
+}
+
+.second h2{
+    margin-top: 50px;
+    color: #1D3557;
+    margin-bottom: 50px;
+   font-size: 1.8rem;
+}
+.second{
+    background-color: #F1FAEE;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+h4{
+    color: #1D3557;
+    font-size: 1.4rem;
+}
+.second p{
+    color: #1D3557;
+    font-size: 1.3rem;
+}
+.card img{
+    width: 250px;
+}
+.card{
+    margin-top: 50px    ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #A8DADC;
+    border-radius: 10px;
+    padding: 30px 5px;
+    max-width: 500px; /* Set a max width */
+    margin-left: auto; /* Center the card */
+    margin-right: auto; /* Center the card */ 
+    background-color: #A8DADC;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 0px #1D3557;
+          
+}
+.card-txt{
+    padding-left: 20px;
+}
+.card p{
+    color: #1D3557;
+    font-style: italic;
+    font-size: 1.1rem;
+}
